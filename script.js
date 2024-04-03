@@ -1,13 +1,12 @@
 function shortcut(s1, s2) {
-  // Check if any of the strings is empty
-  if (s1 === "" || s2 === "") {
-    return ""; // Return empty string if any string is empty
-  }
+  // Convert both strings to lowercase
+  s1 = s1.toLowerCase();
+  s2 = s2.toLowerCase();
   
-  // Extract the initial letters and convert to uppercase
-  const initialLetters = s1.charAt(0).toUpperCase() + s2.charAt(0).toUpperCase();
+  // Extract the initial letters
+  const initialLetters = s1.charAt(0) + s2.charAt(0);
   
-  return initialLetters; // Return uppercase initial letters
+  return initialLetters.toUpperCase(); // Convert the result to uppercase
 }
 
 // Do not change the code below.
