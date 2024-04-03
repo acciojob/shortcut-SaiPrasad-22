@@ -10,8 +10,6 @@ function shortcut(s1, s2) {
   return initialLetters; // Return uppercase initial letters
 }
 
-
-
 // Do not change the code below.
 const s1 = prompt("Enter s1:");
 const s2 = prompt("Enter s2:");
