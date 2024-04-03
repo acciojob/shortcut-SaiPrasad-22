@@ -9,6 +9,13 @@ function shortcut(s1, s2) {
   return initialLetters.toUpperCase(); // Convert the result to uppercase
 }
 
+// Test Cases (for illustration)
+console.log(shortcut("Amnesty", "International")); // Output: 'AI'
+console.log(shortcut("Hello", "world")); // Output: 'HW'
+console.log(shortcut("", "International")); // Output: ''
+console.log(shortcut("Amnesty", "")); // Output: ''
+
+
 // Do not change the code below.
 const s1 = prompt("Enter s1:");
 const s2 = prompt("Enter s2:");
