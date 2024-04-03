@@ -10,11 +10,7 @@ function shortcut(s1, s2) {
   return initialLetters; // Return uppercase initial letters
 }
 
-// Test Cases (for illustration)
-console.log(shortcut("Amnesty", "International")); // Output: 'AI'
-console.log(shortcut("Hello", "world")); // Output: 'Hw'
-console.log(shortcut("", "International")); // Output: ''
-console.log(shortcut("Amnesty", "")); // Output: ''
+
 
 // Do not change the code below.
 const s1 = prompt("Enter s1:");
